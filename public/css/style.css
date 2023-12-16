@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.253);
+    backdrop-filter: blur(5px);
+}
+
+.navbar-nav a{
+    color: #fff;
+}
+
+.navbar-nav a:hover{
+    color: #B78A69;
+}
+
+.navbar-nav a:active{
+    color: #7e5a41;
+}
+
+
+.paragraf{
+    text-align: justify;
+}
+
+.imageGallery{
+    margin: 15px;
+}
+.form-floating-height{
+    height: 100px;
+}
+
+.bgImg{
+    background-image: url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.header-contact{
+    font-family: 'Poppins', sans-serif;
+}
+form .btn-contact{
+    color: white;
+    background-color: #B78A69;
+}
+form .btn-contact:hover{
+    background-color: #7e5a41;
+    color: #fff;
+}
+
+footer{
+    background-color: rgb(41, 41, 41);
+}
